@@ -1,0 +1,296 @@
+/* =========================================
+   Variáveis e Reset
+   ========================================= */
+:root {
+    /* Tema Light */
+    --bg-color: #f8f9fa;
+    --text-primary: #1a1a1a;
+    --text-secondary: #6c757d;
+    --card-bg: #ffffff;
+    --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    --card-shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.1);
+    --border-color: #e9ecef;
+    --btn-bg: #e9ecef;
+    --btn-bg-hover: #dee2e6;
+    --btn-active-bg: #1a1a1a;
+    --btn-active-text: #ffffff;
+    --toast-bg: #1a1a1a;
+    --toast-text: #ffffff;
+}
+
+[data-theme="dark"] {
+    /* Tema Dark */
+    --bg-color: #121212;
+    --text-primary: #e0e0e0;
+    --text-secondary: #a0a0a0;
+    --card-bg: #1e1e1e;
+    --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    --card-shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.4);
+    --border-color: #333333;
+    --btn-bg: #2c2c2c;
+    --btn-bg-hover: #3c3c3c;
+    --btn-active-bg: #e0e0e0;
+    --btn-active-text: #121212;
+    --toast-bg: #e0e0e0;
+    --toast-text: #121212;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    line-height: 1.5;
+}
+
+/* =========================================
+   Layout Principal
+   ========================================= */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem 4rem 2rem;
+}
+
+.header {
+    background-color: var(--card-bg);
+    border-bottom: 1px solid var(--border-color);
+    padding: 1.5rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.header-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    color: var(--text-primary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+}
+
+#theme-toggle:hover {
+    background-color: var(--btn-bg);
+}
+
+/* =========================================
+   Filtros
+   ========================================= */
+.filters {
+    margin: 2rem 0;
+}
+
+.filter-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    list-style: none;
+    justify-content: center;
+}
+
+.filter-btn {
+    background-color: var(--btn-bg);
+    color: var(--text-primary);
+    border: none;
+    padding: 0.5rem 1.25rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+    background-color: var(--btn-bg-hover);
+}
+
+.filter-btn.active {
+    background-color: var(--btn-active-bg);
+    color: var(--btn-active-text);
+}
+
+/* =========================================
+   Galeria e Cartões
+   ========================================= */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--card-shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--card-shadow-hover);
+}
+
+.card-img-container {
+    width: 100%;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    position: relative;
+    background-color: var(--border-color); /* Placeholder color while loading */
+}
+
+.card-img-container img, .card-img-container svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: opacity 0.3s ease;
+}
+
+.card-header {
+    padding: 1.25rem 1.25rem 0.75rem 1.25rem;
+}
+
+.card-category {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-secondary);
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+    line-height: 1.3;
+}
+
+/* =========================================
+   Swatches de Cor
+   ========================================= */
+.card-swatches {
+    padding: 0 1.25rem 1.25rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex-grow: 1;
+}
+
+.swatch-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+
+.swatch-row:hover {
+    background-color: var(--btn-bg);
+}
+
+.swatch-color {
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    flex-shrink: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.swatch-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-width: 0;
+}
+
+.swatch-name {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.swatch-codes {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    display: flex;
+    gap: 0.5rem;
+    font-family: monospace;
+}
+
+/* =========================================
+   Toast Notification
+   ========================================= */
+.toast {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background-color: var(--toast-bg);
+    color: var(--toast-text);
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    z-index: 1000;
+}
+
+.toast.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
+/* =========================================
+   Responsividade
+   ========================================= */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1rem 2rem 1rem;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1.5rem;
+    }
+}
