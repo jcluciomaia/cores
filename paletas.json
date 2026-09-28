@@ -1,0 +1,249 @@
+[
+  {
+    "id": 1,
+    "titulo": "Pôr do Sol nas Montanhas",
+    "categoria": "Paisagem",
+    "imagem": "imagens/foto-01.jpg",
+    "cores": [
+      { "nome": "Ouro do Sol", "hex": "#FFB441", "rgb": "255, 180, 65" },
+      { "nome": "Vegetação Dourada", "hex": "#3A511C", "rgb": "58, 81, 28" },
+      { "nome": "Capim Seco", "hex": "#A8865D", "rgb": "168, 134, 93" },
+      { "nome": "Montanhas ao Léu", "hex": "#353D4C", "rgb": "53, 61, 76" },
+      { "nome": "Céu Crepuscular", "hex": "#A8BCCB", "rgb": "168, 188, 203" }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Floresta de Primavera",
+    "categoria": "Botânica",
+    "imagem": "imagens/foto-02.jpg",
+    "cores": [
+      { "nome": "Amarelo Vivo", "hex": "#F7D65E", "rgb": "247, 214, 94" },
+      { "nome": "Verde Folha", "hex": "#7EA96E", "rgb": "126, 169, 110" },
+      { "nome": "Flor Branca e Roxa", "hex": "#E6E9F0", "rgb": "230, 233, 240" },
+      { "nome": "Galho Cinzento", "hex": "#8D8F91", "rgb": "141, 143, 145" },
+      { "nome": "Céu Claro", "hex": "#A6C8E6", "rgb": "166, 200, 230" }
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Rosa do Deserto Vinho",
+    "categoria": "Botânica",
+    "imagem": "imagens/foto-03.jpg",
+    "cores": [
+      { "nome": "Bordeaux Profundo", "hex": "#3D101E", "rgb": "61, 16, 30" },
+      { "nome": "Vermelho Carmim", "hex": "#9A132C", "rgb": "154, 19, 44" },
+      { "nome": "Magenta Queimado", "hex": "#6E1A33", "rgb": "110, 26, 51" },
+      { "nome": "Verde Oliva", "hex": "#556832", "rgb": "85, 104, 50" },
+      { "nome": "Terracota", "hex": "#684638", "rgb": "104, 70, 56" }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Cambará (Lantana Camara)",
+    "categoria": "Botânica",
+    "imagem": "imagens/foto-04.jpg",
+    "cores": [
+      { "nome": "Laranja Vibrante", "hex": "#E85B1F", "rgb": "232, 91, 31" },
+      { "nome": "Amarelo Gema", "hex": "#F3A81A", "rgb": "243, 168, 26" },
+      { "nome": "Verde Botânico", "hex": "#4A7C31", "rgb": "74, 124, 49" },
+      { "nome": "Verde Floresta Escuro", "hex": "#24441F", "rgb": "36, 68, 31" },
+      { "nome": "Cinza Mineral", "hex": "#A7AA9D", "rgb": "167, 170, 157" }
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Primavera (Bougainvillea Magenta)",
+    "categoria": "Botânica",
+    "imagem": "imagens/foto-05.jpg",
+    "cores": [
+      { "nome": "Magenta Elétrico", "hex": "#D6186A", "rgb": "214, 24, 106" },
+      { "nome": "Fúcsia Profundo", "hex": "#9C084C", "rgb": "156, 8, 76" },
+      { "nome": "Branco Pérola", "hex": "#F6F4EB", "rgb": "246, 244, 235" },
+      { "nome": "Verde Musgo", "hex": "#414E29", "rgb": "65, 78, 41" },
+      { "nome": "Terra Escura", "hex": "#352922", "rgb": "53, 41, 34" }
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Pôr do Sol na Estrada com Lago",
+    "categoria": "Céu / Crepúsculo",
+    "imagem": "imagens/foto-06.jpg",
+    "cores": [
+      { "nome": "Dourado Solar", "hex": "#F99E26", "rgb": "249, 158, 38" },
+      { "nome": "Âmbar Crepuscular", "hex": "#E5BD6F", "rgb": "229, 189, 111" },
+      { "nome": "Azul Petróleo Escuro", "hex": "#3A4F59", "rgb": "58, 79, 89" },
+      { "nome": "Verde Cerrado Dourado", "hex": "#5B5927", "rgb": "91, 89, 39" },
+      { "nome": "Azul Céu Suave", "hex": "#8BA2B4", "rgb": "139, 162, 180" }
+    ]
+  },
+  {
+    "id": 7,
+    "titulo": "Represa sob Luz Dourada",
+    "categoria": "Paisagem",
+    "imagem": "imagens/foto-07.jpg",
+    "cores": [
+      { "nome": "Azul Ardósia Profundo", "hex": "#40586E", "rgb": "64, 88, 110" },
+      { "nome": "Azul Céu Límpido", "hex": "#94ADC4", "rgb": "148, 173, 196" },
+      { "nome": "Dourado Suave", "hex": "#DDB374", "rgb": "221, 179, 116" },
+      { "nome": "Verde Oliva Ensolarado", "hex": "#6E7328", "rgb": "110, 115, 40" },
+      { "nome": "Verde Colina Escuro", "hex": "#2D4433", "rgb": "45, 68, 51" }
+    ]
+  },
+  {
+    "id": 8,
+    "titulo": "Flor Roxa Silvestre",
+    "categoria": "Botânica",
+    "imagem": "imagens/foto-08.jpg",
+    "cores": [
+      { "nome": "Lavanda Elétrico", "hex": "#8869BA", "rgb": "136, 105, 186" },
+      { "nome": "Violeta Profundo", "hex": "#543977", "rgb": "84, 57, 119" },
+      { "nome": "Castanho Bráctea", "hex": "#6C513D", "rgb": "108, 81, 61" },
+      { "nome": "Verde Sálvia", "hex": "#5D7554", "rgb": "93, 117, 84" },
+      { "nome": "Areia Pedregosa", "hex": "#C4B4A0", "rgb": "196, 180, 160" }
+    ]
+  },
+  {
+    "id": 9,
+    "titulo": "Orquídea Phalaenopsis Matizada",
+    "categoria": "Botânica",
+    "imagem": "imagens/foto-09.jpg",
+    "cores": [
+      { "nome": "Púrpura Imperial", "hex": "#881363", "rgb": "136, 19, 99" },
+      { "nome": "Branco Seda", "hex": "#F3EEF5", "rgb": "243, 238, 245" },
+      { "nome": "Ocre Labelo", "hex": "#D3972C", "rgb": "211, 151, 44" },
+      { "nome": "Verde Grade Metal", "hex": "#324B41", "rgb": "50, 75, 65" },
+      { "nome": "Magenta Veludo", "hex": "#B52084", "rgb": "181, 32, 132" }
+    ]
+  },
+  {
+    "id": 10,
+    "titulo": "Vereda com Buritis e Morro",
+    "categoria": "Paisagem",
+    "imagem": "imagens/foto-10.jpg",
+    "cores": [
+      { "nome": "Verde Savana", "hex": "#737943", "rgb": "115, 121, 67" },
+      { "nome": "Verde Mata de Galeria", "hex": "#324329", "rgb": "50, 67, 41" },
+      { "nome": "Azul Seresta", "hex": "#627588", "rgb": "98, 117, 136" },
+      { "nome": "Cinza Nuvem", "hex": "#CBD4DF", "rgb": "203, 212, 223" },
+      { "nome": "Bege Palha", "hex": "#B8AB8A", "rgb": "184, 171, 138" }
+    ]
+  },
+  {
+    "id": 11,
+    "titulo": "Esponjinha-rosa (Calliandra)",
+    "categoria": "Botânica",
+    "imagem": "imagens/foto-11.jpg",
+    "cores": [
+      { "nome": "Rosa Chiclete", "hex": "#E24B79", "rgb": "226, 75, 121" },
+      { "nome": "Rosa Claro / Branco", "hex": "#F3B2C6", "rgb": "243, 178, 198" },
+      { "nome": "Marrom Botão", "hex": "#654D3D", "rgb": "101, 77, 61" },
+      { "nome": "Verde Folhagem", "hex": "#3C5824", "rgb": "60, 88, 36" },
+      { "nome": "Verde Musgo", "hex": "#5F6E3B", "rgb": "95, 110, 59" }
+    ]
+  },
+  {
+    "id": 12,
+    "titulo": "Teto de Guarda-chuvas Coloridos",
+    "categoria": "Ambiente",
+    "imagem": "imagens/foto-12.jpg",
+    "cores": [
+      { "nome": "Ciano Vibrante", "hex": "#00FFFF", "rgb": "0, 255, 255" },
+      { "nome": "Amarelo Limão", "hex": "#E8F67C", "rgb": "232, 246, 124" },
+      { "nome": "Laranja Pôr do Sol", "hex": "#FF914D", "rgb": "255, 145, 77" },
+      { "nome": "Verde Esmeralda", "hex": "#00A86B", "rgb": "0, 168, 107" },
+      { "nome": "Vermelho Veludo", "hex": "#B52026", "rgb": "181, 32, 38" }
+    ]
+  },
+  {
+    "id": 13,
+    "titulo": "Guabiroba e Folhagem",
+    "categoria": "Botânica",
+    "imagem": "imagens/foto-13.jpg",
+    "cores": [
+      { "nome": "Verde Folha Primário", "hex": "#C2D96B", "rgb": "194, 217, 107" },
+      { "nome": "Verde Folha Maduro", "hex": "#4E6C3A", "rgb": "78, 108, 58" },
+      { "nome": "Capim Seco do Solo", "hex": "#A88E6D", "rgb": "168, 142, 109" },
+      { "nome": "Caule e Estrutura", "hex": "#8C8471", "rgb": "140, 132, 113" },
+      { "nome": "Sombras da Mata", "hex": "#2A3C44", "rgb": "42, 60, 68" }
+    ]
+  },
+  {
+    "id": 14,
+    "titulo": "Plumeria (Frangipani)",
+    "categoria": "Botânica",
+    "imagem": "imagens/foto-14.jpg",
+    "cores": [
+      { "nome": "Amarelo Sol", "hex": "#F9E13E", "rgb": "249, 225, 62" },
+      { "nome": "Verde Folha", "hex": "#40602F", "rgb": "64, 96, 47" },
+      { "nome": "Branco Pérola", "hex": "#F5F1E1", "rgb": "245, 241, 225" },
+      { "nome": "Verde Oliva", "hex": "#7EA96E", "rgb": "126, 169, 110" },
+      { "nome": "Caule", "hex": "#8A7B6B", "rgb": "138, 123, 107" }
+    ]
+  },
+  {
+    "id": 15,
+    "titulo": "Oleandro Rosa (Espirradeira)",
+    "categoria": "Botânica",
+    "imagem": "imagens/foto-15.jpg",
+    "cores": [
+      { "nome": "Rosa Pétala", "hex": "#E8A3C1", "rgb": "232, 163, 193" },
+      { "nome": "Verde Folha Primário", "hex": "#3A5439", "rgb": "58, 84, 57" },
+      { "nome": "Rosa Sombreado", "hex": "#B57D8A", "rgb": "181, 125, 138" },
+      { "nome": "Solo e Caule Seco", "hex": "#A89B84", "rgb": "168, 155, 132" },
+      { "nome": "Sombras da Folhagem", "hex": "#2A3C44", "rgb": "42, 60, 68" }
+    ]
+  },
+  {
+    "id": 16,
+    "titulo": "Alamanda Vinho",
+    "categoria": "Botânica",
+    "imagem": "imagens/foto-16.jpg",
+    "cores": [
+      { "nome": "Vinho Intenso", "hex": "#7A1F45", "rgb": "122, 31, 69" },
+      { "nome": "Verde Folha Escuro", "hex": "#4E6C3A", "rgb": "78, 108, 58" },
+      { "nome": "Verde Folha Claro", "hex": "#7EA96E", "rgb": "126, 169, 110" },
+      { "nome": "Caule Seco", "hex": "#8A7B6B", "rgb": "138, 123, 107" },
+      { "nome": "Sombras", "hex": "#2A3C44", "rgb": "42, 60, 68" }
+    ]
+  },
+  {
+    "id": 17,
+    "titulo": "Aquário e Peixes",
+    "categoria": "Ambiente",
+    "imagem": "imagens/foto-17.jpg",
+    "cores": [
+      { "nome": "Azul Aquário Central", "hex": "#00AEEF", "rgb": "0, 174, 239" },
+      { "nome": "Azul Profundo Fundo", "hex": "#114466", "rgb": "17, 68, 102" },
+      { "nome": "Azul Claro Superfície", "hex": "#BBDDEE", "rgb": "187, 221, 238" },
+      { "nome": "Cinza-Peixe", "hex": "#8A7B6B", "rgb": "138, 123, 107" },
+      { "nome": "Sombra Estrutural", "hex": "#2A3C44", "rgb": "42, 60, 68" }
+    ]
+  },
+  {
+    "id": 18,
+    "titulo": "Turnera e Abelha",
+    "categoria": "Botânica",
+    "imagem": "imagens/foto-18.jpg",
+    "cores": [
+      { "nome": "Amarelo-Sol Central", "hex": "#F9E13E", "rgb": "249, 225, 62" },
+      { "nome": "Verde Folha Maduro", "hex": "#3A5439", "rgb": "58, 84, 57" },
+      { "nome": "Branco Pétala", "hex": "#F5F1E1", "rgb": "245, 241, 225" },
+      { "nome": "Verde Vegetação", "hex": "#7EA96E", "rgb": "126, 169, 110" },
+      { "nome": "Cinza do Solo", "hex": "#8A7B6B", "rgb": "138, 123, 107" }
+    ]
+  },
+  {
+    "id": 19,
+    "titulo": "Coração-sangrento (Clerodendrum)",
+    "categoria": "Botânica",
+    "imagem": "imagens/foto-19.jpg",
+    "cores": [
+      { "nome": "Vermelho-Cravo Intenso", "hex": "#C21E56", "rgb": "194, 30, 86" },
+      { "nome": "Verde Dourado", "hex": "#4E6C3A", "rgb": "78, 108, 58" },
+      { "nome": "Creme Pálido do Botão", "hex": "#F5F1E1", "rgb": "245, 241, 225" },
+      { "nome": "Verde Folha Primário", "hex": "#7EA96E", "rgb": "126, 169, 110" },
+      { "nome": "Sombras da Mata", "hex": "#2A3C44", "rgb": "42, 60, 68" }
+    ]
+  }
+]
